@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>AceCart</title>
+    <meta name="description" content="" />
+    <meta name="author" content="George_Fx">
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/lib/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+        <section class="sec-block">   
+           
+            <div class="container-fluid">
+                
+                <div class="section-title text-center">
+                    <h2 class="menu-head">Acetro</h2>
+                </div><!--sec-title end-->
+                <div class="popular-dishes text-center">
+                    <div class="options">
+                        <div class="option-isotop" >
+                            <ul id="filter" class="option-set filters-nav category-slider  " data-option-key="filter" >
+                                <li><a class="" data-option-value="">All Items</a></li>
+                                <li><a class="selected" data-option-value=".meat">Meat</a></li>
+                                <li><a data-option-value=".pizza">Pizza</a></li>
+                                <li><a data-option-value=".momo">Mo:Mo</a></li>
+                                <li><a data-option-value=".roll">Katti Roll</a></li>
+                                <li><a data-option-value=".burger">Burger</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div><!--options end-->
+                    <div class="row">
+                        <div class="masonary">    
+                        <div class="col-xl-6 col-lg-6 col-md-6 meat">
+                            <div class="menu-box">
+                                <div class="prodtucs">
+                                <span class="item-names">Chicken</span>
+                                <span class="price-item">$400</span>
+                                <a href="#" class="btn-add">Add</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 pizza">
+                            <div class="menu-box">
+                                <div class="prodtucs">
+                                <span class="item-names">Chicken</span>
+                                <span class="price-item">$400</span>
+                                <a href="#" class="btn-add">Add</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 burger">
+                            <div class="menu-box">
+                                <div class="prodtucs">
+                                <span class="item-names">Chicken</span>
+                                <span class="price-item">$400</span>
+                                <a href="#" class="btn-add">Add</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 momo">
+                            <div class="menu-box">
+                                <div class="prodtucs">
+                                <span class="item-names">Chicken</span>
+                                <span class="price-item">$400</span>
+                                <a href="#" class="btn-add">Add</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 pizza">
+                            <div class="menu-box">
+                                <div class="prodtucs">
+                                <span class="item-names">Chicken</span>
+                                <span class="price-item">$400</span>
+                                <a href="#" class="btn-add">Add</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        
+                        
+                    </div>
+
+                    
+                </div>
+                </div><!--popular-dishes end-->
+
+                <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header border-bottom-0">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Your Shopping Cart
+                          </h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <table class="table table-image">
+                            <thead>
+                              <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Qty</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Actions</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Chicken Pizza</td>
+                                <td>89$</td>
+                                <td class="qty"><input type="text" class="form-control" id="input1" value="2"></td>
+                                <td>178$</td>
+                                <td>
+                                  <a href="#" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-times"></i>
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table> 
+                          <div class="d-flex justify-content-end">
+                            <h5>Total: <span class="price text-success">89$</span></h5>
+                          </div>
+                        </div>
+                        <div class="modal-footer border-top-0 d-flex justify-content-between">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn-checkout"><a href="checkout.html">Checkout</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+            </div>
+            <footer class="footer">
+                <div class="footer-content">
+                    <ul class="footer-icon">
+                        <li><a href="#"><i class="fa fa-home"></i></a></li>
+                        <li><button type="button" class="btn-cart" data-toggle="modal" data-target="#cartModal"><i class="fa fa-cart-plus"></i></button></li>
+                        <li><a href="#"><i class="fa fa-bell"></i></a></li>
+                        <li><a href="login.html"><i class="fa fa-sign-in-alt"></i></a></li>
+
+                     </ul>
+                </div>
+            </footer>
+        </section>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/lib/slick/slick.js"></script>
+        <script src="assets/js/isotope.js"></script>
+        <script src="assets/js/scripts.js"></script>
+    
+    </body>
+    </html>
